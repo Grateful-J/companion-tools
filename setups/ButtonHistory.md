@@ -97,7 +97,9 @@ ___________________________
 Instead of copying the boolean check each time, you create a local variable named `hasHistory` for example
 
 we will input our boolean check logic like we did in the previous step
-`page = $(this:page);
+
+``` 
+page = $(this:page);
 row = $(this:row);
 col = $(this:column);
 
@@ -106,7 +108,8 @@ track = getVariable(key);
 
 obj = $(custom:playedTracks) || {};
 obj[track] = true;
-obj`
+obj 
+```
 
 Now we can do a simple check across other actions or formatting
 
