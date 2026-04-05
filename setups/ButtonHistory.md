@@ -45,6 +45,9 @@ obj
 If you are having difficuties setting this up, a good check is to go into your Custom Variables tab and check to see if your entries are actually making it into your variable.
 
 You should be able to press a button and see your JSON object update with `button name: true`
+
+<img width="1823" height="945" alt="Screenshot 2026-04-05 at 4 28 10 PM" src="https://github.com/user-attachments/assets/78849d85-c224-4976-8a88-4e266fa70414" />
+
 _______________________________
 
 
@@ -113,7 +116,7 @@ obj
 
 Now we can do a simple check across other actions or formatting
 
-back on the feedback tab we can do a simple check:
+Back on the feedback tab we can do a simple check:
 does our button have button history?
 `$(local:hasHistory) === true`
 
