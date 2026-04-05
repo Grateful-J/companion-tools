@@ -122,14 +122,14 @@ this does the same logic as before but is easier to read and trouble shoot.
 Now we can go back to actions page and build and IF action
 `internal: Logic: If statement`
 
-When true
+#### When true
 `$(local:hasHistory) === true`
 
-Then
+#### Then
 
 <insert your logic here for when the button has been already pressed>
 you could skip over, you could have it move to the next cue in line, or whatever suits your workflow
 
-Else
+#### Else
 <insert your normal behavior>
 This is normal button activity that triggers when the key is not in our button history
