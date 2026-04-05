@@ -9,9 +9,11 @@ Create a custom variable (example: `playedTracks`).
 - Set **Startup Value** from text (`"T"`) to an empty object (`{}`).
 - Set **Current Value** to an empty object (`{}`) as well.
 
+
 ```js
 {}
 ```
+<img width="1335" height="945" alt="Screenshot 2026-04-05 at 3 29 27 PM" src="https://github.com/user-attachments/assets/d6be26c0-5fae-4821-a4d6-35106034aab7" />
 
 ## 2) Save button presses to history
 
